@@ -26,22 +26,32 @@
   /* APP BACKGROUND */
   --background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
   --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
-  --background-position: center; /* app background position [default: center] */
-  --background-size: cover; /* app background size (px) [default: cover] */
-  --background-attachment: fixed; /* app background attachment [default: fixed] */
+  --background-position:; /* app background position [default: center] */
+  --background-size: ; /* app background size (px) [default: cover] */
+  --background-attachment: ; /* app background attachment [default: fixed] */
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-popout-position: var(--background-position); /* user popout position [default: var(--background-position)] */
-  --user-popout-size: var(--background-size); /* user popout size (px) [default: var(--background-size)] */
-  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
-  --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  --user-popout-image: transparent; /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-popout-position:center; /* user popout position [default: var(--background-position)] */
+  --user-popout-size: cover; /* user popout size (px) [default: var(--background-size)] */
+  --user-popout-attachment: fixed; /* user popout background attachment [default: var(--background-attachment)] */
+  --user-popout-brightness: 89%;
+ --user-popout-contrast: 100%;
+ --user-popout-saturation: 100%;
+ --user-popout-grayscale: 0%;
+ --user-popout-invert: 0%;
+ --user-popout-blur: 3px; /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-modal-position: var(--background-position); /* user modal position [default: var(--background-position)] */
-  --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
-  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
-  --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  --user-modal-image: transparent; /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-modal-position: center; /* user modal position [default: var(--background-position)] */
+  --user-modal-size: cover; /* user modal size (px) [default: var(--background-size)] */
+  --user-modal-attachment: fixed; /* user modal background attachment [default: var(--background-attachment)] */
+      --user-modal-brightness: 100%;
+    --user-modal-contrast: 100%;
+    --user-modal-saturation: 100%;
+    --user-modal-grayscale: 0%;
+    --user-modal-invert: 0%;
+    --user-modal-blur: 3px; /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* HOME ICON */
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */

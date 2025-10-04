@@ -31,10 +31,10 @@
   --background-attachment: fixed; /* app background attachment [default: fixed] */
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
-  --user-popout-position: var(--background-position); /* user popout position [default: var(--background-position)] */
-  --user-popout-size: var(--background-size); /* user popout size (px) [default: var(--background-size)] */
-  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+  --user-popout-image: transparent; /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-popout-position: center; /* user popout position [default: var(--background-position)] */
+  --user-popout-size: cover; /* user popout size (px) [default: var(--background-size)] */
+  --user-popout-attachment: fixed; /* user popout background attachment [default: var(--background-attachment)] */
   --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* USER MODAL BACKGROUND */
   --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
